@@ -47,7 +47,9 @@ $ brew cask install google-japanese-ime
 ```
 
 ## iterm2
+```
 $ brew cask install iterm2
+```
 
 # Dev
 ## rbenv(https://github.com/rbenv/rbenv) for Ruby
