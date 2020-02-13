@@ -5,6 +5,7 @@
 echo "----- install web apps -------"
 brew cask install docker
 brew cask install java
+brew cask install iterm2
 brew cask install google-chrome
 brew cask install visual-studio-code
 

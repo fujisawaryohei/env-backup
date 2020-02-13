@@ -1,0 +1,5 @@
+{
+    "window.zoomLevel": -1,
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.editor.enablePreview": false
+}
