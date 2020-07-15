@@ -96,3 +96,15 @@ sbt(https://github.com/sbt/sbt) install
 ```
 $ brew install scala sbt
 ```
+
+# shell
+### oh-my-zsh install
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+### Japanesque(color theme)
+```shell
+git clone git@github.com:aereal/dotfiles.git
+```
+[参照: https://qiita.com/tbpgr/items/2a31a8d529ba6c7ee5de ]  
+
