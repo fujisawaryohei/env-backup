@@ -1,27 +1,25 @@
-#######################################
-# Ruby
+# Ruby rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# Node.js
+# Node.js nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Yarn for throughing  path after yarn global install~
-export PATH="$PATH:"/usr/local/lib/node_modules/node/bin"";
-export PATH="$PATH:`yarn global bin`"
+# Golang
+export GOPATH=$HOME/Development/Golang
 
-# Java
-#export JAVA_HOME=`/usr/libexec/java_home -v "11"`
-export JAVA_HOME=`/usr/libexec/java_home -v "1.8"`
-PATH=${JAVA_HOME}/bin:${PATH}
+# Python pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+# through path for installing library with pip
+export PATH="$HOME/.local/bin:$PATH"
 
 # Databases
+## postgres
 export PGDATA='/usr/local/var/postgres'
-
-# nand2tetris
-export PATH="$PATH:"~/development/nand2tetris/tools"";
 
 ########################################
 #zsh settings

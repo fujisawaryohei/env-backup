@@ -13,7 +13,7 @@ $ brew install caskroom/cask/brew-cask
 
 ## DB Infra
 ```
-$ brew install mysql postgresql sqlite redis kubernetes-cli protobuf aws-elasticbeanstalk aws-cli docker
+$ brew install mysql postgresql sqlite redis kubernetes-cli protobuf aws-elasticbeanstalk aws-cli docker ansible
 ```
 
 ## env
