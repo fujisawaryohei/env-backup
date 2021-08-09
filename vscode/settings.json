@@ -1,5 +1,70 @@
 {
-    "window.zoomLevel": -1,
     "terminal.external.osxExec": "iTerm.app",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIkYwRjBGMFwiLFwiRjdGN0Y3XCJdLFwiZm9ybWF0V2lkdGhcIjowLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+    "workbench.sideBar.location": "left",
+    "hediet.vscode-drawio.theme": "atlas",
+    "hediet.vscode-drawio.offline": false,
+    "go.useLanguageServer": true,
+    "workbench.colorCustomizations": {
+        // アクティビティバー
+        "activityBar.background": "#021d5269", // アクティビティバーの背景色
+        "activityBar.foreground": "#fc0202", // アクティビティバーの前景色
+        "activityBar.border": "#646464", // アクティビティバーの境界線
+        // サイドバー
+        "sideBarSectionHeader.background": "#413746", // サイドバーセクションヘッダーの背景色
+        "sideBarSectionHeader.border": "#8db3ff46", // サイドバーセクションヘッダーの境界線の色
+        "sideBar.background": "#1b1b30", // サイドバーの背景色
+        "sideBar.foreground": "#a0a0a0", // サイドバーの前景色
+        "sideBar.border": "#646464", // サイドバーの境界線
+        "list.activeSelectionBackground": "#2c88d377", // アクティブな状態のセクションの背景色
+        "list.focusBackground": "#2c88d377", // フォーカス状態のセクションの背景色
+        "list.hoverBackground": "#193c5877", //ホバー状態のセクションの背景色
+        // ヘッダー、タブ
+        "editorGroupHeader.tabsBackground": "#020a1a69", // ヘッダーの背景色
+        "tab.activeBackground": "#0319464f", // アクティブタブの背景色
+        "tab.border": "#8db3ff46", // タブの横線
+        "tab.inactiveBackground": "#2929316e", // 非選択タブの背景色
+        // エディター
+        "editor.background": "#020a1a69", // エディターの背景色
+        "editor.selectionBackground": "#cc25a265", // 選択領域の強調色
+        "editor.lineHighlightBackground": "#9e99ee11", // 選択している行の強調色
+        "editorLineNumber.foreground": "#a2bdddbb", // 選択行番号の文字色
+        "editorBracketMatch.background": "#2c88d377", // 対応する括弧の背景色
+        // ステータスバー
+        "statusBar.background": "#021d5269", // ステータスバー背景色
+        "statusBar.foreground": "#fc0202", // ステータスバー前景色
+        "statusBar.border": "#646464", // ステータスバー前景色
+        // スクロールバー
+        "scrollbarSlider.background": "#0d478a99", // スクロールバーの色
+        // walcomeページ
+        "welcomePage.background": "#021d5269",
+        "terminal.background": "#0e0f1a",
+        "terminal.foreground": "#E9E9F4",
+        "terminalCursor.background": "#E9E9F4",
+        "terminalCursor.foreground": "#E9E9F4",
+        "terminal.ansiBlack": "#282936",
+        "terminal.ansiBlue": "#08ec1b",
+        "terminal.ansiBrightBlack": "#626483",
+        "terminal.ansiBrightBlue": "#228ca7",
+        "terminal.ansiBrightCyan": "#A1EFE4",
+        "terminal.ansiBrightMagenta": "#B45BCF",
+        "terminal.ansiBrightRed": "#EA51B2",
+        "terminal.ansiBrightWhite": "#F7F7FB",
+        "terminal.ansiBrightYellow": "#00F769",
+        "terminal.ansiCyan": "#A1EFE4",
+        "terminal.ansiGreen": "#EBFF87",
+        "terminal.ansiMagenta": "#B45BCF",
+        "terminal.ansiRed": "#EA51B2",
+        "terminal.ansiWhite": "#E9E9F4",
+        "terminal.ansiYellow": "#00F769"
+    },
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.fontSize": 10,
+    "redhat.telemetry.enabled": true,
+    "editor.largeFileOptimizations": false,
 }
