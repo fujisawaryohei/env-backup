@@ -1,10 +1,7 @@
 # Ruby rbenv
+export RBENV_ROOT="$HOME/.rbenv"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
-# PHP phpenv
-export PATH="$HOME/.phpenv/bin:$PATH"
-eval "$(phpenv init -)"
 
 # Node.js nvm
 export NVM_DIR="$HOME/.nvm"
@@ -12,7 +9,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Golang
-export PATH="$PATH:/usr/local/go/bin"
+export PATH=${HOME}/go/bin:${PATH}
+#export PATH="$PATH:/usr/local/go/bin"
 
 # Python pyenv
 export PYENV_ROOT="$HOME/.pyenv"
