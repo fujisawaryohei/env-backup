@@ -108,3 +108,7 @@ git clone git@github.com:aereal/dotfiles.git
 ```
 [参照: https://qiita.com/tbpgr/items/2a31a8d529ba6c7ee5de ]  
 
+# VSCode Plugin
+- drawio
+- plantUML
+
