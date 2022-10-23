@@ -18,6 +18,8 @@ export PATH=${HOME}/go/bin:${PATH}
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
+## EBCLI via Python(https://github.com/aws/aws-elastic-beanstalk-cli-setup)
+export PATH="/Users/fujisawaryohei/.ebcli-virtual-env/executables:$PATH"
 
 # Databases
 ## postgres (brew install postgresql)
