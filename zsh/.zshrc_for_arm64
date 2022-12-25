@@ -21,6 +21,9 @@ eval "$(pyenv init --path)"
 ## EBCLI via Python
 export PATH="/Users/fujisawaryohei/.ebcli-virtual-env/executables:$PATH"
 
+# Terraform tfenv
+export PATH="$HOME/.tfenv/bin:$PATH"
+
 # Databases
 ## postgres (brew install postgresql)
 export PGDATA='/usr/local/var/postgres'

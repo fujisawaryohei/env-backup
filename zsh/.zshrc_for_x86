@@ -19,6 +19,9 @@ eval "$(pyenv init -)"
 # through path for installing library with pip
 export PATH="$HOME/.local/bin:$PATH"
 
+# Terraform tfenv
+export PATH="$HOME/.tfenv/bin:$PATH"
+
 # Databases
 ## postgres
 export PGDATA='/usr/local/var/postgres'
